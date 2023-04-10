@@ -7,15 +7,13 @@
 #include <IRremoteESP8266.h>
 #include <IRsend.h>
 
-const char* ssid     = "CED-IOT";
-const char* password = "adminced.tct";
-
-const char* mqtt_server = "202.44.35.76";
+const char* ssid     = "WIFI";
+const char* password = "PASSWORDWIFI";
+const char* mqtt_server = "IPSERVER";
 const int mqtt_port = 1883;
-
-const char* mqtt_Client = "44702Air";
-const char* mqtt_username = "sclass";
-const char* mqtt_password = "class44702";
+const char* mqtt_Client = "USERCLIENT";
+const char* mqtt_username = "USERSERVER";
+const char* mqtt_password = "PASSWORDSERVER";
 
 int analog_value = 0;
 char msg[100];
